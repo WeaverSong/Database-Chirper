@@ -1,0 +1,112 @@
+body {
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    background-color:aqua;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: rgb(0, 146, 146);
+}
+
+
+.flex {
+    display: flex
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.font-bigger {
+    font-size: x-large;
+}
+
+.pad {
+    padding: 15px;
+}
+
+.margin {
+    margin: 15px;
+}
+
+.max {
+    width: 100%;
+    height: 100%;
+}
+
+
+.input-form {
+    background-color:aliceblue;
+    width: 30%;
+    margin: 30px;
+    padding: 20px;
+    border: solid black 2px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.75);
+    height: 50%;
+    align-self: center;
+}
+
+#messages {
+    background-color: aliceblue;
+    width: 50%;
+    height: 90%;
+    align-self: center;
+    border: solid black 2px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.75);
+    overflow-y:scroll;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #06b4c0;
+    border-radius: 15px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #0697a1;
+}
+
+.Message {
+    background-color: rgb(133, 255, 255);
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.Message:hover {
+    background-color: rgb(24, 255, 255);
+}
+
+.DeleteMessage {
+    background-color: red;
+    padding: 3px 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.DeleteMessage:hover {
+    background-color: brown;
+}
